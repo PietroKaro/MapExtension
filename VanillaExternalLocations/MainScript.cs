@@ -16,7 +16,7 @@ namespace VanillaExternalLocations
         readonly Vector3 CAYO_PERICO_POS = new Vector3(4840.571f, -5174.425f, 2.0f);
         readonly Vector3 AIRCRAFT_CARRIER_POS = new Vector3(3084.73f, -4770.709f, 15.26167f);
         readonly Vector3 YACHT_VESPUCCI_POS = new Vector3(-2027.946f, -1036.695f, 6.707587f);
-        readonly Vector3 YACHT_PALETO_POS = new Vector3(1373.828f, 6737.393f, 6.707596f);
+        readonly Vector3 YACHT_PALETO_POS = new Vector3(-1413.325f, 6750.301f, 11.90974f);
 
         readonly string[] _CayoPericoIPL = { "island_lodlights", "h4_islandairstrip", "h4_islandairstrip_props", "h4_islandx_mansion", "h4_islandx_mansion_props", "h4_islandx_props", "h4_islandxdock", "h4_islandxdock_props", "h4_islandxdock_props_2", "h4_islandxtower", "h4_islandx_maindock", "h4_islandx_maindock_props", "h4_islandx_maindock_props_2", "h4_IslandX_Mansion_Vault", "h4_islandairstrip_propsb", "h4_beach", "h4_beach_props", "h4_beach_bar_props", "h4_islandx_barrack_props", "h4_islandx_checkpoint",
             "h4_islandx_checkpoint_props", "h4_islandx_Mansion_Office", "h4_islandx_Mansion_LockUp_01", "h4_islandx_Mansion_LockUp_02", "h4_islandx_Mansion_LockUp_03", "h4_islandairstrip_hangar_props", "h4_IslandX_Mansion_B", "h4_islandairstrip_doorsclosed", "h4_Underwater_Gate_Closed", "h4_mansion_gate_closed", "h4_aa_guns", "h4_IslandX_Mansion_GuardFence", "h4_IslandX_Mansion_Entrance_Fence", "h4_IslandX_Mansion_B_Side_Fence", "h4_IslandX_Mansion_Lights", "h4_islandxcanal_props", "h4_beach_props_party",
@@ -87,7 +87,7 @@ namespace VanillaExternalLocations
                     ToggleShipWater(false);
                     break;
                 case Keys.NumPad2:
-                    
+                    Notification.Show(Game.Player.Character.Position.ToString());
                     break;
                 case Keys.NumPad7:
                     
