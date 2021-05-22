@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<VanillaExternalLocations>
+  <CayoPerico active="true"></CayoPerico>
+  <AircraftCarrier active="true"></AircraftCarrier>
+  <YachtVespucci active="true"></YachtVespucci>
+  <YachtPaleto active="true"></YachtPaleto>
+</VanillaExternalLocations>
