@@ -58,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Appunti.txt" />
     <Content Include="VELConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
